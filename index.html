@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #a05b22;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;/*centraliza o menu*/
+            gap: 20px;/*https://nekocalc.com/px-to-rem-converter*/
+        }
+
+
+        .imagem_leo {
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #a05b22;
+            color: white;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #a05b22;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #a05b22 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #a05b22;
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .imagem_leo {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Sobre Mim</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="formaçao.html">Formação</a></li>
+            <li><a href="portifolio.html">Portifólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="arthur">
+            <img src="Imagens VS/arthur.img.jpg" width="80%">
+        
+            <div class="infos">
+                <p><strong>RU:</strong> 4608451</p>
+                <p>
+                    <strong>Data do Nascimento</strong>
+                    11/09/2001 (22 anos)
+                </p>
+                <p><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas</p>
+            </div>
+
+        </aside>
+        <section class="principal">
+            <h1>
+                Arthur Mabe Martins
+            </h1>
+            <p>Apaixonado por música, videogames, esportes, tecnologia da informação (TI) e gastronomia, meu perfil pessoal reflete uma mistura de interesses diversos que, juntos, moldam minha visão de mundo e minhas paixões diárias. Cada uma dessas áreas de interesse tem desempenhado um papel importante em minha vida, contribuindo para o meu crescimento pessoal e profissional.
+
+                <p>Música é, sem dúvida, uma das minhas grandes paixões. Desde cedo, fui exposto a diferentes gêneros musicais, o que me permitiu desenvolver um gosto eclético e uma curiosidade incessante por novos sons e bandas. Música, para mim, é uma forma de expressão e de conexão com o mundo ao meu redor. Ela tem o poder de influenciar meu estado de espírito e de me transportar para diferentes lugares e momentos. Ao longo dos anos, explorei uma ampla gama de estilos, desde o rock clássico até o jazz, passando por eletrônica, música clássica e pop. Essa diversidade musical não apenas enriquece minha vida pessoal, mas também me inspira em outras áreas, como a criatividade no trabalho e nos estudos.</p>
+                
+                <p>videogames também ocupam um lugar especial em minha vida. Desde a infância, os jogos sempre foram uma fonte de diversão e, ao mesmo tempo, de aprendizado. Acredito que os videogames oferecem muito mais do que apenas entretenimento; eles podem ser uma forma poderosa de desenvolver habilidades cognitivas, como resolução de problemas, pensamento estratégico e até mesmo trabalho em equipe. Gosto de explorar diferentes tipos de jogos, desde os de estratégia em tempo real até os RPGs com histórias envolventes, onde cada decisão que tomo impacta o desenrolar da trama. Os videogames me ensinaram a importância da paciência, da persistência e da criatividade, qualidades que aplico em minha vida pessoal e profissional.</p>
+                
+                <p>Quando se trata de esportes, vejo essa atividade como uma forma de manter o corpo e a mente saudáveis. Ao longo dos anos, pratiquei diversas modalidades, desde futebol até natação, cada uma me ensinando lições valiosas sobre disciplina, trabalho em equipe e superação de desafios. O esporte é mais do que apenas uma atividade física para mim; é uma forma de me conectar com outras pessoas, de me desafiar constantemente a melhorar e de manter um equilíbrio saudável entre o corpo e a mente. Além disso, praticar esportes regularmente me ajuda a lidar com o estresse do dia a dia e a manter uma mentalidade positiva e focada em meus objetivos.</p>
+                
+                <p>O interesse em tecnologia da informação (TI) é outra parte fundamental da minha identidade. Desde jovem, fui fascinado por computadores e tecnologia, o que me levou a seguir uma carreira na área de TI. Adoro explorar as inovações tecnológicas, entender como funcionam e como podem ser aplicadas para resolver problemas do mundo real. Trabalho com TI me permite combinar minha curiosidade natural com uma abordagem prática para criar soluções eficientes e inovadoras. Além disso, o mundo da TI está em constante evolução, o que me mantém sempre atualizado e em busca de novos conhecimentos. Essa paixão por tecnologia também se reflete na forma como vejo o mundo e interajo com ele, sempre buscando maneiras de otimizar processos e de aplicar a tecnologia para melhorar a vida das pessoas ao meu redor.</p>
+                
+                <p>Finalmente, a gastronomia é uma área que me traz imensa satisfação e alegria. Sempre tive um interesse especial por comida, não apenas como uma necessidade básica, mas como uma forma de arte e expressão cultural. Gosto de experimentar novas receitas, explorar diferentes sabores e técnicas de preparo, e descobrir como os alimentos podem influenciar nosso bem-estar físico e emocional. Cozinhar é uma atividade que me relaxa e me permite ser criativo, ao mesmo tempo em que proporciona a oportunidade de compartilhar momentos especiais com amigos e familiares. Além disso, gosto de explorar a cena gastronômica, experimentando novos restaurantes e pratos, o que amplia ainda mais meu repertório culinário e me ajuda a entender melhor as diversas culturas ao redor do mundo.</p>
+                
+                <p>Cada um desses interesses música, videogames, esportes, TI e gastronomia contribui de maneira significativa para o meu desenvolvimento como indivíduo. Eles me mantêm motivado, curioso e engajado com o mundo ao meu redor. Seja através de um novo álbum de música, um jogo desafiador, uma partida esportiva emocionante, um avanço tecnológico ou um prato delicioso, estou sempre buscando novas experiências que me permitam crescer e me desenvolver.</p>
+                
+                <p>No campo profissional, esses interesses também me proporcionam uma vantagem única. A música me ensina a importância da criatividade e da comunicação; os videogames me mostram como resolver problemas complexos e trabalhar em equipe; os esportes me ensinam sobre disciplina e perseverança; a TI me proporciona um entendimento profundo de como a tecnologia pode transformar negócios e vidas; e a gastronomia me ajuda a entender melhor a importância da cultura, do bem-estar e da satisfação pessoal. Todos esses elementos juntos me tornam um profissional versátil, capaz de abordar desafios de diferentes perspectivas e de encontrar soluções inovadoras.</p>
+                
+                <p>Além disso, acredito que esses interesses me ajudam a manter um equilíbrio saudável entre a vida pessoal e profissional. A música e os videogames me oferecem uma válvula de escape criativa; os esportes me ajudam a manter a saúde física e mental; a TI me desafia intelectualmente; e a gastronomia me proporciona momentos de prazer e conexão com os outros. Esse equilíbrio é essencial para manter uma vida plena e satisfatória, e é algo que valorizo profundamente.</p>
+                
+                <p>Em resumo, sou uma pessoa que encontra alegria e propósito em uma ampla gama de atividades e interesses. Esses interesses não apenas me definem como indivíduo, mas também moldam a maneira como vejo o mundo e como interajo com ele. Seja através da música, dos videogames, dos esportes, da TI ou da gastronomia, estou sempre em busca de novas formas de aprender, crescer e contribuir positivamente para o mundo ao meu redor. Esses interesses me mantêm curioso, motivado e engajado, e são parte essencial do que me torna único.</p>
+
+                <p>Os filmes desempenham um papel especial na minha vida, oferecendo uma combinação única de entretenimento e reflexão. Gosto de explorar uma variedade de gêneros, desde dramas profundos até ficções científicas que desafiam o pensamento. O cinema me permite mergulhar em diferentes mundos, viver diversas experiências e refletir sobre temas complexos. Além de ser uma forma de relaxamento, os filmes também inspiram minha criatividade e influenciam outras áreas de interesse, como a música e os videogames. Discutir filmes com amigos enriquece minha compreensão, tornando o cinema uma parte essencial da minha vida social e pessoal.</p>
+
+
+        </section>
+    </div>
+    <footer class="container">
+        <h1>Fundamentos da Programação Web</h1>
+    </footer>
+    </div>
+</body>
+
+</html>

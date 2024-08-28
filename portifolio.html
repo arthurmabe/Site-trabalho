@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #a05b22;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;/*centraliza o menu*/
+            gap: 20px;/*https://nekocalc.com/px-to-rem-converter*/
+        }
+
+
+        .imagem_leo {
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #a05b22;
+            color: white;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #a05b22;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #a05b22 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #a05b22;
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .imagem_leo {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Portifólio</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="formaçao.html">Formação</a></li>
+            <li><a href="portifolio.html">Portifólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="arthur">
+            <img src="Imagens VS/arthur.img.jpg" width="80%">
+        
+            <div class="infos">
+                <p><strong>RU:</strong> 4608451</p>
+                <p>
+                    <strong>Data do Nascimento</strong>
+                    11/09/2001 (22 anos)
+                </p>
+                <p><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas</p>
+            </div>
+
+        </aside>
+        <section class="principal">
+            <h1>
+                Arthur Mabe Martins
+            </h1>
+            <p>Formação Acadêmica
+                Ensino Médio Completo pelo Colégio Cruzeiro do Sul </p>
+                
+                <p>Concluí o ensino médio no Colégio Cruzeiro do Sul, uma instituição renomada por sua excelência acadêmica e abordagem inovadora. Durante minha formação, desenvolvi uma sólida base educacional e habilidades essenciais que me prepararam para desafios futuros. O colégio não apenas proporcionou um aprendizado teórico de qualidade, mas também promoveu o desenvolvimento de habilidades práticas e o envolvimento em atividades extracurriculares enriquecedoras.</p>
+                
+                <p>Experiência Profissional
+                1. Ravserve
+                
+                Cargo: Assistente Administrativo
+                Período: 2022
+                Responsabilidades:
+                Gerenciamento de documentos e arquivos.
+                Suporte administrativo às equipes internas.
+                Atendimento ao cliente e resolução de questões administrativas.
+                Organização e coordenação de reuniões e eventos.</p>
+
+                <p>2. Ver Coco
+                
+                Cargo: Analista Administrativo
+                Período: 2021
+                Responsabilidades:
+                Coordenação de processos administrativos e operacionais.
+                Controle de estoque e gestão de compras.
+                Elaboração de relatórios e análise de dados administrativos.
+                Atendimento a clientes e fornecedores.</p>
+                <p>Cursos e Certificações
+                Durante minha jornada profissional e acadêmica, busquei continuamente aprimorar meus conhecimentos na área de Tecnologia da Informação. Aqui estão alguns dos cursos e certificações que concluí:
+                
+                Linguagens de Programação: Conhecimentos em diversas linguagens de programação, adquiridos através de cursos especializados.
+                Banco de Dados: Formação em técnicas de gerenciamento e manipulação de bancos de dados.
+                Comunicação: Desenvolvimento de habilidades de comunicação eficaz, tanto escrita quanto verbal.
+                Resolução de Problemas: Técnicas e métodos para a identificação e solução de problemas complexos.
+                SQL Server: Treinamento específico em SQL Server para a administração e gerenciamento de bancos de dados.
+                JavaScript: Aprendizado e aplicação da linguagem JavaScript para desenvolvimento web e scripts.
+                Python: Capacitação em Python para desenvolvimento de scripts e projetos de automação.
+                Projetos de Sistemas de TI: Experiência prática na criação e implementação de sistemas de tecnologia da informação.
+                Big Data: Formação em técnicas e ferramentas para análise e processamento de grandes volumes de dados.
+                Excel Avançado: Habilidades avançadas em Excel para análise de dados e criação de relatórios.
+                Fundamentos de TI: Hardware e Software: Conhecimento aprofundado sobre a infraestrutura de hardware e software.</p>
+                <p>Idiomas
+                Inglês Intermediário: Competência em leitura, escrita e conversação em inglês, o que facilita a comunicação em ambientes internacionais e o acesso a materiais técnicos.</p>
+
+
+        </section>
+    </div>
+    <footer class="container">
+        <h1>Fundamentos da Programação Web</h1>
+    </footer>
+    </div>
+</body>
+
+</html>
